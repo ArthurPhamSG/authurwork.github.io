@@ -1,0 +1,360 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "fontello";
+  color: #35302f;
+}
+h1 {
+  padding: 20px 20px 20px;
+}
+
+.bg-grey {
+  width: auto;
+
+  background: #f7f7f7;
+  margin: 0px 0px;
+}
+/*Format & positive the image,  blur the background */
+#banner {
+  height: 50vh;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("/images/banner.jpg");
+  background-size: cover;
+  color: white;
+}
+/*Center the content*/
+#nav-bar {
+  margin: 0 auto;
+}
+
+#certificate {
+  width: 1200px;
+  height: 450px;
+
+  margin: 20px auto;
+}
+/* Devide the content to 3 equal sections*/
+
+/*Positive the header*/
+.header-content {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 0px 0px 0px;
+}
+section > .container7 {
+  width: 1200px;
+  margin: 0 auto;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 0px 0px 0px;
+}
+.container8 {
+  width: 1200px;
+  margin: 0 auto;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 0px 0px 0px;
+}
+
+.infor {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+.imgPro {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  display: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-about {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  /*align-items: center;
+  justify-content: center;*/
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+#target {
+  width: 48%;
+  padding: 0px 0px;
+  height: auto;
+}
+#personal-info {
+  background-color: #504c4c0c;
+  width: 48%;
+  height: auto;
+  padding: 20px 50px;
+}
+
+#job-info {
+  width: 1200px;
+  height: 1300px;
+  margin: 0 auto;
+
+  /*align-items: center;
+  justify-content: center;*/
+}
+container {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.container1 {
+  width: 1200px;
+  height: 1400px;
+  margin: 0 auto;
+  /*display: grid;
+  grid-template-columns: repeat(3, 3);
+  */
+  gap: 40px;
+}
+.container5 {
+  float: left;
+  width: 33%;
+  height: 650px;
+
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.onesection {
+  /*Border each section*/
+  border-style: ridge;
+  display: relative;
+}
+.onesection2 {
+  /*Border each section*/
+  border-style: ridge;
+  display: relative;
+  height: 600px;
+  margin-top: 20px;
+}
+/*Set width and height for the Project section*/
+#project {
+  width: 1200px;
+  height: 650px;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+.onesection > ul {
+  padding: 20px 20px 20px;
+}
+
+.onesection > ul > li {
+  padding-bottom: 20px;
+}
+.onesection > ul > li > div {
+  font-weight: bold;
+}
+
+.inner-a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#nav-bar {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 1000;
+  gap: 10px;
+}
+#nav-bar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.section-title {
+  margin-top: 0px;
+}
+/*Format the icon*/
+.ic-pencil,
+.ic-toolbox,
+.ic-telescope,
+.ic-mic,
+.ic-tools-2,
+.ic-mic {
+  size: 50px;
+  justify-items: right;
+  font-size: 1.1em;
+  color: rgba(255, 87, 9, 0.986);
+  float: right;
+  padding-right: 30px;
+} /*
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon,
+.ic-basket {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border: 3px solid rgba(206, 73, 12, 0.733);
+  border-color: rgb(16, 189, 212);
+  font-size: 1em;
+}*/
+
+.icon-twitter,
+.icon-facebook,
+.icon-gplus,
+.icon-linkedin,
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1,
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon,
+.ic-basket,
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled,
+.icon-lamp,
+.icon-user {
+  color: #199cdb;
+  font-size: 1.3em;
+}
+.cert {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 180px 180px;
+}
+/*Re-format image*/
+.image {
+  width: 300px;
+  float: left;
+  padding: 20px 20px;
+}
+.cert1-info {
+  padding: auto;
+  padding: 20px 20px;
+}
+.cert2 {
+  border-left: 1px solid #d6c08d;
+}
+.cert3 {
+  grid-column: 1 / 3;
+  border-top: 1px solid #d6c08d;
+}
+
+.image1 {
+  width: 380px;
+  float: left;
+}
+/*Group table*/
+h3 {
+  text-transform: uppercase;
+  grid-column: 1 / 3;
+}
+/*Format table with border and set size for each one*/
+
+.d2 {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+  padding-left: 50px;
+  text-align: center;
+  justify-items: center;
+  height: 30px;
+  border: 1px solid #d0d6d6;
+  border-collapse: collapse;
+}
+.CV {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 380px;
+  border: 1px solid #d0d6d6;
+  padding-left: 20px;
+}
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  color: #199cdb;
+  font-size: 1.5em;
+}
+#footer {
+  padding: 20px auto;
+  height: 70px;
+}
+.onesection2 > .dots {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: inline-block;
+  display: flex;
+  gap: 12px;
+}
+.dot {
+  position: inline-block;
+  height: 3px;
+  width: 45px;
+  margin-right: 5px;
+  background-color: #d0d6d6;
+}
+.dot--fill {
+  background: #199cdb;
+}
+table {
+  width: 380px;
+  border: 1px solid #d0d6d6;
+  border-collapse: collapse;
+}
+table th {
+  width: 100px;
+  padding: 10px 10px;
+
+  font-weight: normal;
+  text-align: left;
+  border-block: 1px solid #d0d6d6;
+}
+table td {
+  border-block: 1px solid #d0d6d6;
+}
+.year {
+  border-radius: 30%;
+  background-color: #199cdb;
+  color: white;
+}
